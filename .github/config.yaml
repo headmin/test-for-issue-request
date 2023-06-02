@@ -1,0 +1,8 @@
+contact_links:
+  - name: Help and support
+    about: Contact us on our [website](https:/www.zentral.com) or on 
+[MacAdmins Slack](https://macadmins.slack.com) in the `#zentral` channel 
+or here on GitHub.
+  - name: Dedicated support
+    url: mailto:support@zentral.com
+    about: Contact us for dedicated Zentral support.
