@@ -12,19 +12,16 @@ body:
   - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
-      description: Please search to see if an issue already exists for the 
-bug you encountered
+      description: Please search to see if an issue already exists for the bug you encountered
       options:
         - label: I have searched the existing issues
           required: true
   - type: textarea
     attributes:
       label: Current behavior
-      description: A concise description of what you're experiencing and 
-what you expect
+      description: A concise description of what you're experiencing and what you expect
       placeholder: |
-        When I do <X>, <Y> happens and I see the error message attached 
-below:
+        When I do <X>, <Y> happens and I see the error message attached below:
         ```...```
         What I expect is <Z>
     validations:
@@ -32,8 +29,7 @@ below:
   - type: textarea
     attributes:
       label: Steps to reproduce
-      description: Add steps to reproduce this behavior, include console 
-or network logs and screenshots
+      description: Add steps to reproduce this behavior, include console or network logs and screenshots
       placeholder: |
         1. Go to '...'
         2. Click on '....'
